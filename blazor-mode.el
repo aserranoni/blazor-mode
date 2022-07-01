@@ -27,7 +27,7 @@
 
 (define-innermode blazor-mode-csharp-innermode
   :mode 'csharp-mode
-  :head-matcher "@code{"
+  :head-matcher "@code ?{"
   :tail-matcher "\t}"
   :head-mode 'host
   :tail-mode 'host)
@@ -36,7 +36,7 @@
   :hostmode 'blazor-mode-hostmode
   :innermodes '(blazor-mode-csharp-innermode))
 
-(add-to-list 'auto-mode-alist '("*.razor" . blazor-mode))
+(add-to-list 'auto-mode-alist '("\\.razor\\'" . blazor-mode))
 
 (provide 'blazor-mode)
 ;;; blazor-mode.el ends here
