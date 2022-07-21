@@ -1,5 +1,5 @@
-;;; blazor-mode.el --- Description -*- lexical-binding: t; -*-
-;;
+;;; blazor-mode.el --- A Simple polymode for editingg .razor files
+;;; -*- lexical-binding: t; -*-
 ;; Copyright (C) 2022 Ariel Serranoni
 ;;
 ;; Author: Ariel Serranoni <arielserranoni@gmail.com>
@@ -14,8 +14,8 @@
 ;; This file is not part of GNU Emacs.
 ;;
 ;;; Commentary:
+;; A simple polymode for editing .razor files
 ;;
-;;  Description
 ;;
 ;;; Code:
 

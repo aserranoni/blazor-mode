@@ -1,0 +1,2 @@
+;;; Generated package description from blazor-mode.el  -*- no-byte-compile: t -*-
+(define-package "blazor-mode" "0.0.1" "A Simple polymode for editingg .razor files" '((emacs "24.3")) :authors '(("Ariel Serranoni" . "arielserranoni@gmail.com")) :maintainer '("Ariel Serranoni" . "arielserranoni@gmail.com") :keywords '("convenience" "languages" "tools") :url "https://github.com/aserranoni/blazor-mode")
